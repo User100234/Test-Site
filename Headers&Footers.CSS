@@ -1,9 +1,40 @@
-
-  .square{
-	 width: 500px;
-     height: 500px;
-     background: red;
+.Nav-Bar{
+	width: 2872px;
+	height: 140px;
+	background: none;
   }
+   .Nav-Bar_variation-1{
+   	width: inherit;
+	height: inherit;
+	background: white;
+    transform: translate(0,200px);
+  }
+   .Nav-Bar_variation-2{
+   	width: inherit;
+	height: inherit;
+	background: white;
+    transform: translate(0,280px);
+  }
+.Footer-bar_widgest{
+  	 width: 2872px;
+     height: 744px;
+     transform: translate(0,500px);
+     background: white;
+  }
+.Footer-bar_copyright{
+  	 width: 2872px;
+     height: 139px;
+     transform: translate(0,502px);
+     background: white;
+  }
+.Footer-bar_mobile{
+  	 width: 1536px;
+     height: 733px;
+     transform: translate(664px,583px);
+     background: white;
+  }
+
+   
 
 
 
