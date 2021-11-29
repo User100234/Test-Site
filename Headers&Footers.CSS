@@ -1,40 +1,45 @@
   .Nav-Bar{
-	width: 2872px;
-	height: 140px;
-	background: none;
+	 width: 2872px;
+	 height: 140px;
+	 background: none;
   }
-   .Nav-Bar_1{
-   	width: inherit;
-	height: inherit;
-	background: white;
-    transform: translate(0,272px);
-   }
+  .Nav-Bar_1{
+   	 width: inherit;
+	 height: inherit;
+	 background: white;
+      transform: translate(0,272px);
+  }
    .Nav-Bar_1_Menu, li{
-     margin-right: 34px;
- 	font-family: 'Montserrat', sans-serif;
-  	display: inline-block;
-  	font-size: 28px;
-  	transform: translate(505px,-6px);   
-   }  
+      margin-right: 34px;
+ 	 font-family: 'Montserrat', sans-serif;
+  	 display: inline-block;
+  	 font-size: 28px;
+  	 transform: translate(506px,12px);   
+  }  
      .TXT-Bold{
-     font-weight: 700;
+       font-weight: 700;
      }
+
      .Check-Mark{
-     margin-right: 25px;
-     transform: translateX(10.5px)
+      margin-right: 25px;
+      transform: translateX(10.5px);
+     }
+
+     .Check-Mark-2{
+      margin-right: 25px;
      }
 
      .Nav-Bar_1_Logo{
-
+       transform: translate(272px,-58px);
      }
 
 
-   .Nav-Bar_2{
-   	width: inherit;
-	height: inherit;
-	background: white;
-    transform: translate(0,350px);
-  }
+     .Nav-Bar_2{
+   	  width: inherit;
+	  height: inherit;
+	  background: white;
+       transform: translate(0,350px);
+     }
   .Footer-bar_widgest{
   	 width: 2872px;
      height: 744px;
