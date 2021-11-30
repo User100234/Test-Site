@@ -1,5 +1,14 @@
+  body{
+   width: 2880px;
+   height: 2700px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+
   .Nav-Bar{
-	 width: 2872px;
+	 width: 2880px;
 	 height: 140px;
 	 background: none;
   }
@@ -7,57 +16,64 @@
    	 width: inherit;
 	 height: inherit;
 	 background: white;
-      transform: translate(0,272px);
+      margin-right: 100px;
+      transform: translate(0,280px);
   }
    .Nav-Bar_1_Menu, li{
       margin-right: 34px;
  	 font-family: 'Montserrat', sans-serif;
   	 display: inline-block;
   	 font-size: 28px;
-  	 transform: translate(506px,12px);   
+  	 transform: translate(510px,12px);   
   }  
-     .TXT-Bold{
-       font-weight: 700;
+   .TXT-Bold{
+      font-weight: 700;
      }
 
-     .Check-Mark{
+   .Check-Mark{
       margin-right: 25px;
-      transform: translateX(10.5px);
+      transform: translateX(12px);
      }
 
-     .Check-Mark-2{
-      margin-right: 25px;
+   .Check-Mark-2{
+      transform: translateX(11px);
      }
 
-     .Nav-Bar_1_Logo{
-       transform: translate(272px,-58px);
+   .Nav-Bar_1_Logo{
+       transform: translate(280px,-59px);
      }
 
+     .Nav-Bar_1_Menu_Button-Enter{
+      transform: translate(1993px, -140px);
+     }
+     .Nav-Bar_1_Menu_Button-Reg{
+      transform: translate(2030px, -140px)  
+     }
 
-     .Nav-Bar_2{
+   .Nav-Bar_2{
    	  width: inherit;
 	  height: inherit;
 	  background: white;
-       transform: translate(0,350px);
+       transform: translate(0,360px);
      }
-  .Footer-bar_widgest{
-  	 width: 2872px;
-     height: 744px;
-     transform: translate(0,570px);
-     background: white;
-   }
+   .Footer-bar_widgest{
+  	 width: 2880px;
+      height: 744px;
+      transform: translate(0,579px);
+      background: white;
+     }
    .Footer-bar_copyright{
-  	 width: 2872px;
-     height: 139px;
-     transform: translate(0,572px);
-     background: white;
-  }
-  .Footer-bar_mobile{
+  	 width: 2880px;
+      height: 139px;
+      transform: translate(0,581px);
+      background: white;
+     }
+   .Footer-bar_mobile{
   	 width: 1536px;
-     height: 733px;
-     transform: translate(664px,655px);
-     background: white;
-  }
+      height: 733px;
+      transform: translate(672px,663px);
+      background: white;
+     }
 
    
 
