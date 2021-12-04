@@ -5,7 +5,7 @@
    margin-bottom: 0px;
    margin-left: 0px;
    margin-right: 0px;
-  }
+   }
 
   .Nav-Bar{
 	 width: 2880px;
@@ -18,37 +18,48 @@
 	 background: white;
       margin-right: 100px;
       transform: translate(0,280px);
-  }
+     }
+     .Nav-Bar_1_Menu_Logo{
+      width: 216px;
+      height: 80px;
+      transform: translate(278px,30px);
+     }
    .Nav-Bar_1_Menu, li{
-      margin-right: 34px;
- 	 font-family: 'Montserrat', sans-serif;
+      margin-right: 36px;
+ 	 font-family: "Montserrat";
   	 display: inline-block;
   	 font-size: 28px;
-  	 transform: translate(510px,12px);   
-  }  
-   .TXT-Bold{
-      font-weight: 700;
+  	 transform: translateX(216px); 
+      color: rgba(31, 32, 65, 0.5); 
+     }
+     .Nav-Bar_1_Menu_TXT-Bold{
+        font-weight: 700;
+        color:  rgba(31, 32, 65, 0.75);
+     }
+     .Nav-Bar_1_Menu_Mark-1{
+          width: 24px;
+          height: 16px;
+          transform: translateX(5px);
+          margin-right: 12px;
+     }
+     .Nav-Bar_1_Menu_Mark-2{
+          width: 24px;
+          height: 16px;
+          transform: translateX(5px);
+          margin-right: 12px;
+     }
+     .Nav-Bar_1_Button-Default{
+          width: 174px;
+          height: 68px;
+          transform: translate(765px,23px);
+     }
+     .Nav-Bar_1_Button-Reg{
+          width: 392px;
+          height: 68px;
+          transform: translate(794px,23px);
      }
 
-   .Check-Mark{
-      margin-right: 25px;
-      transform: translateX(12px);
-     }
 
-   .Check-Mark-2{
-      transform: translateX(11px);
-     }
-
-   .Nav-Bar_1_Logo{
-       transform: translate(280px,-59px);
-     }
-
-     .Nav-Bar_1_Menu_Button-Enter{
-      transform: translate(1993px, -140px);
-     }
-     .Nav-Bar_1_Menu_Button-Reg{
-      transform: translate(2030px, -140px)  
-     }
 
    .Nav-Bar_2{
    	  width: inherit;
@@ -56,18 +67,60 @@
 	  background: white;
        transform: translate(0,360px);
      }
+     .Nav-Bar_2_Menu_Logo{
+      width: 216px;
+      height: 80px;
+      transform: translate(278px,30px);
+     } 
+     .Nav-Bar_2_Menu, li{
+      margin-right: 36px;
+      font-family: "Montserrat";
+      display: inline-block;
+      font-size: 28px;
+      transform: translateX(582px); 
+      color: rgba(31, 32, 65, 0.5); 
+     }
+     .Nav-Bar_2_Menu_TXT-Bold{
+        font-weight: 700;
+        color:  rgba(31, 32, 65, 0.75);
+     }
+     .Nav-Bar_2_Menu_Mark-1{
+          width: 24px;
+          height: 16px;
+          transform: translateX(5px);
+          margin-right: 12px;
+     }
+     .Nav-Bar_2_Menu_Mark-2{
+          width: 24px;
+          height: 16px;
+          transform: translateX(5px);
+          margin-right: 12px;
+     }
+     .Nav-Bar_2_Vertical-Line{
+          width: 2px;
+          height: 60px;
+          transform: translate(1130px,20px);
+     }
+     .Nav-Bar_2_User{
+         font-family: "Montserrat"; 
+         font-size: 28px;
+         color: rgba(31, 32, 65, 0.5); 
+         transform: translate(2400px,-90px);
+     }
    .Footer-bar_widgest{
   	 width: 2880px;
       height: 744px;
       transform: translate(0,579px);
       background: white;
      }
+
    .Footer-bar_copyright{
   	 width: 2880px;
       height: 139px;
       transform: translate(0,581px);
       background: white;
      }
+
    .Footer-bar_mobile{
   	 width: 1536px;
       height: 733px;
