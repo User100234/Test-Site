@@ -6,6 +6,9 @@
    margin-left: 0px;
    margin-right: 0px;
    }
+   li {
+     list-style-type: none;
+   }
 
   .Nav-Bar{
 	 width: 2880px;
@@ -24,12 +27,12 @@
       height: 80px;
       transform: translate(278px,30px);
      }
-   .Nav-Bar_1_Menu, li{
+   .Nav-Bar_1_Menu li{
       margin-right: 36px;
  	 font-family: "Montserrat";
   	 display: inline-block;
   	 font-size: 28px;
-  	 transform: translateX(216px); 
+  	 transform: translate(1020px, -48px); 
       color: rgba(31, 32, 65, 0.5); 
      }
      .Nav-Bar_1_Menu_TXT-Bold{
@@ -40,7 +43,7 @@
           width: 24px;
           height: 16px;
           transform: translateX(5px);
-          margin-right: 12px;
+          margin-right: 20px;
      }
      .Nav-Bar_1_Menu_Mark-2{
           width: 24px;
@@ -51,14 +54,13 @@
      .Nav-Bar_1_Button-Default{
           width: 174px;
           height: 68px;
-          transform: translate(765px,23px);
+          transform: translate(1995px,-115px);
      }
      .Nav-Bar_1_Button-Reg{
           width: 392px;
           height: 68px;
-          transform: translate(794px,23px);
+          transform: translate(2030px,-115px);
      }
-
 
 
    .Nav-Bar_2{
@@ -72,12 +74,12 @@
       height: 80px;
       transform: translate(278px,30px);
      } 
-     .Nav-Bar_2_Menu, li{
+     .Nav-Bar_2_Menu li{
       margin-right: 36px;
       font-family: "Montserrat";
       display: inline-block;
       font-size: 28px;
-      transform: translateX(582px); 
+      transform: translate(1385px, -48px); 
       color: rgba(31, 32, 65, 0.5); 
      }
      .Nav-Bar_2_Menu_TXT-Bold{
@@ -88,7 +90,7 @@
           width: 24px;
           height: 16px;
           transform: translateX(5px);
-          margin-right: 12px;
+          margin-right: 20px;
      }
      .Nav-Bar_2_Menu_Mark-2{
           width: 24px;
@@ -99,19 +101,80 @@
      .Nav-Bar_2_Vertical-Line{
           width: 2px;
           height: 60px;
-          transform: translate(1130px,20px);
+          transform: translate(2360px,-110px);
      }
      .Nav-Bar_2_User{
          font-family: "Montserrat"; 
          font-size: 28px;
          color: rgba(31, 32, 65, 0.5); 
-         transform: translate(2400px,-90px);
+         transform: translate(2400px,-190px);
      }
    .Footer-bar_widgest{
   	 width: 2880px;
       height: 744px;
       transform: translate(0,579px);
       background: white;
+     }
+     .Footer-bar_widgest_Logo{
+          width: 216px;
+          height: 80px;
+          transform: translate(278px,200px);
+     }
+     .Footer-bar_widgest_TXT-about li{
+          font-family: "Montserrat";
+          font-size: 28px;
+          margin-bottom: 14px;
+          color: rgba(31, 32, 65, 0.5);
+          transform:translate(240px, 223px);
+          
+     }
+     .Footer-bar_widgest_navigation li,.Footer-bar_widgest_about li,.Footer-bar_widgest_support-service li{
+          font-family: "Montserrat";
+          font-size: 28px;
+          margin-bottom: 43px;
+          color: rgba(31, 32, 65, 0.5);
+     }
+     li.Footer-bar_widgest_navigation_TXT-Bold,li.Footer-bar_widgest_about_TXT-Bold,li.Footer-bar_widgest_support-service_TXT-Bold{
+          font-weight: 700;
+          font-size: 24px;
+          color: black;
+     }
+     .Footer-bar_widgest_navigation{
+          transform: translate(840px,-38px);
+     }
+     .Footer-bar_widgest_about{
+          transform: translate(1240px,-415px);
+     }
+     .Footer-bar_widgest_support-service{
+          transform: translate(1640px,-796px);
+     }
+     .Footer-bar_widgest_subscription li{
+          transform: translate(2040px,-1100px);
+          font-family: "Montserrat";
+          font-size: 28px;
+          margin-bottom: 13px;
+          color: rgba(31, 32, 65, 0.5);
+     }
+     li.Footer-bar_widgest_subscription_TXT-Bold{
+          font-weight: 700;
+          font-size: 24px;
+          color: black;
+          margin-bottom: 43px;
+     }
+     .Footer-bar_widgest_subscription_Input-panel{
+          width: 520px;
+          height: 88px;
+          transform:translate(2040px,-1060px);
+     }
+     .Footer-bar_widgest_subscription_Arrow-forward{
+          width: 36px;
+          height: 36px;
+          transform:translate(1975px,-1085px);
+     }
+     .Footer-bar_widgest_subscription_Email{
+          width: 76px;
+          height: 24px;
+          transform: translate(1510px,-1090px);
      }
 
    .Footer-bar_copyright{
@@ -120,12 +183,43 @@
       transform: translate(0,581px);
       background: white;
      }
+     .Footer-bar_copyright_copyright{
+          font-family: "Montserrat";
+          font-size: 28px;
+          color: rgba(31, 32, 65, 0.75);
+          display: inline-block;
+          transform: translate(280px,35px);
+     }
+     .Footer-bar_copyright_Twitter,.Footer-bar_copyright_Faceboock,.Footer-bar_copyright_Instagram{
+          width: 48px;
+          height: 48px;
+          transform: translate(1632px,45px);
+          margin-right: 35px;
+     }
 
    .Footer-bar_mobile{
   	 width: 1536px;
       height: 733px;
       transform: translate(672px,663px);
       background: white;
+     }
+     .Footer-bar_mobile_Logo{
+          width: 216px;
+          height: 80px;
+          transform: translate(660px,240px);
+     }
+     .Footer-bar_mobile_copyright{
+          font-family: "Montserrat";
+          font-size: 28px;
+          color: rgba(31, 32, 65, 0.75);
+          display: inline-block;
+          transform: translate(178px,308px);
+     }
+      .Footer-bar_mobile_Twitter,.Footer-bar_mobile_Faceboock,.Footer-bar_mobile_Instagram{
+          width: 48px;
+          height: 48px;
+          transform: translate(-310px,410px);
+          margin-right: 35px;
      }
 
    
