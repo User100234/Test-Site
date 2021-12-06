@@ -1,0 +1,36 @@
+body{
+	height: 1350px;
+    width: 1440px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: #E5E5E5;
+}
+.Number-Search,.Registration,.Number-summ,.Calendar,.Entrance{
+	height: 373px;
+	width:378px;
+	background: white;
+	border-radius: 4px;
+}
+.Number-Search{
+	transform: translate(140px,150px);
+}
+.Number-summ{ 
+	transform: translate(560px,-865px);
+	height: 510px;
+}
+.Calendar{ 
+    transform: translate(980px,-1378px);
+    height: 368px;
+	width:320px;
+	outline: 1px solid rgba(31, 32, 65, 0.25)
+}
+.Registration{  
+	height: 645px;
+	transform: translate(141px,192px);
+}
+.Entrance{
+	transform: translate(560px,-1190px);
+	height: 355px;
+}
