@@ -12,6 +12,7 @@ body{
 	width:378px;
 	background: white;
 	border-radius: 4px;
+	box-shadow: 0px 0px 24px 1px rgba(31, 32, 65, 0.25)
 }
 .Number-Search{
 	transform: translate(140px,150px);
