@@ -6,8 +6,10 @@ body{
     margin-right: 0px;
     margin-bottom: 0px;
     background: #E5E5E5;
+    display: inline-block;
 }
 .Number-Search,.Registration,.Number-summ,.Calendar,.Entrance{
+	position: absolute;
 	height: 373px;
 	width:378px;
 	background: white;
@@ -15,23 +17,29 @@ body{
 	box-shadow: 0px 0px 24px 1px rgba(31, 32, 65, 0.25)
 }
 .Number-Search{
-	transform: translate(140px,150px);
+	left: 140px;
+	top: 150px;
 }
 .Number-summ{ 
-	transform: translate(560px,-865px);
+	bottom: 308px;
+	left: 560px;
 	height: 510px;
 }
 .Calendar{ 
-    transform: translate(980px,-1378px);
+	bottom: 450px;
+	left: 980px;
     height: 368px;
 	width:320px;
-	outline: 1px solid rgba(31, 32, 65, 0.25)
+	outline: 1px solid rgba(31, 32, 65, 0.25);
+	box-shadow: none;
 }
 .Registration{  
+	left: 140px;
+	top: 565px;
 	height: 645px;
-	transform: translate(141px,192px);
 }
 .Entrance{
-	transform: translate(560px,-1190px);
 	height: 355px;
+	left: 560px;
+	top: 705px;
 }
