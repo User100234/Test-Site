@@ -6,10 +6,9 @@ body{
     margin-right: 0px;
     margin-bottom: 0px;
     background: #E5E5E5;
-    display: inline-block;
 }
 .Number-Search,.Registration,.Number-summ,.Calendar,.Entrance{
-	position: absolute;
+	position: relative;
 	height: 373px;
 	width:378px;
 	background: white;
@@ -18,15 +17,20 @@ body{
 }
 .Number-Search{
 	left: 140px;
-	top: 150px;
+	top: 135px;
+}
+.Number-Search_h1{
+	font-family: "Montserrat";
+	font-size: 24px;
+	transform: translate(30px,38px);
 }
 .Number-summ{ 
-	bottom: 308px;
+	top: -880px;
 	left: 560px;
 	height: 510px;
 }
 .Calendar{ 
-	bottom: 450px;
+	top: -1393px;
 	left: 980px;
     height: 368px;
 	width:320px;
@@ -35,11 +39,11 @@ body{
 }
 .Registration{  
 	left: 140px;
-	top: 565px;
+	top: 175px;
 	height: 645px;
 }
 .Entrance{
 	height: 355px;
 	left: 560px;
-	top: 705px;
+	top: -1208px;
 }
