@@ -8,42 +8,231 @@ body{
     background: #E5E5E5;
 }
 .Number-Search,.Registration,.Number-summ,.Calendar,.Entrance{
-	position: relative;
 	height: 373px;
 	width:378px;
 	background: white;
 	border-radius: 4px;
-	box-shadow: 0px 0px 24px 1px rgba(31, 32, 65, 0.25)
+	box-shadow: 0px 0px 24px 1px rgba(31, 32, 65, 0.25);
 }
 .Number-Search{
-	left: 140px;
-	top: 135px;
+	transform: translate(140px,135px);
+	z-index: auto;
 }
 .Number-Search_h1{
 	font-family: "Montserrat";
 	font-size: 24px;
 	transform: translate(30px,38px);
 }
+.Number-Search_fields_arrival,.Number-Search_fields_departure,.Number-Search_fields_guests,.Number-Search_Button{
+	font-family: "Montserrat";
+	font-size: 12px;
+	height: 42px;
+	width: 148px;
+	position: absolute;
+	outline: 1px solid rgba(31, 32, 65, 0.25);
+	border-radius: 4px;
+	left: 30px;
+	top: 140px;
+}
+.Number-Search_fields_arrival p{
+	transform: translate(0px,-32px);
+}
+p.Number-Search_fields_arrival_date{
+	font-size: 14px;
+	transform: translate(15px,-29px);
+}
+.Number-Search_fields_arrival_mark{
+	transform: translate(122px,-60px);
+}
+.Number-Search_fields_departure{
+	left: 200px;
+}
+.Number-Search_fields_departure p{
+	transform: translate(0px,-32px);
+}
+p.Number-Search_fields_departure_date{
+	font-size: 14px;
+	transform: translate(15px,-29px);
+}
+.Number-Search_fields_departure_mark{
+	transform: translate(122px,-60px);
+}
+.Number-Search_fields_guests{
+    width: 318px;
+    top: 225px;
+}
+.Number-Search_fields_guests p{
+	transform: translate(0px,-32px);
+}
+p.Number-Search_fields_guests_date{
+	font-size: 14px;
+	transform: translate(15px,-29px);
+}
+.Number-Search_fields_guests_mark{
+	transform: translate(292px,-60px);
+}
+.Number-Search_Button{
+	width: 318px;
+	transform: translateY(160px);
+	border-radius: 22px;
+	background: linear-gradient(rgba(188, 156, 255, 1),rgba(139, 164, 249, 1));
+}
+.Number-Search_Button p{
+	font-family: "Montserrat";
+	font-size: 12px;
+	color: white;
+	transform: translate(90px,2px);
+}
+.Number-Search_Button_Arrow{
+	color: white;
+	transform: translate(288px,-27px);
+}
 .Number-summ{ 
-	top: -880px;
-	left: 560px;
+	transform: translate(560px,-902px);
 	height: 510px;
 }
 .Calendar{ 
-	top: -1393px;
-	left: 980px;
     height: 368px;
 	width:320px;
 	outline: 1px solid rgba(31, 32, 65, 0.25);
 	box-shadow: none;
+	transform: translate(980px,-1415px);
 }
 .Registration{  
-	left: 140px;
-	top: 175px;
+	transform: translate(140px,155px);
 	height: 645px;
+}
+.Registration_h2{
+	font-family: "Montserrat";
+	transform: translate(30px,40px);
+}
+.Registration_Name,.Registration_Last-name,.Registration_date,.Registration_email,.Registration_password,.Registration_Button{
+	height: 42px;
+	width: 319px;
+	font-family: "Montserrat";
+	outline: 1px solid rgba(31, 32, 65, 0.25);
+	border-radius: 4px;
+	position: absolute;
+    left: 30px;
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.25);
+}
+.Registration_Name{
+	top: 92px;
+}
+.Registration_Name p,.Registration_Last-name p,.Registration_date p,.Registration_email p,.Registration_password p{
+	position: absolute;
+	left: 15px;
+	top:-3px;
+}
+.Registration_date h1,.Registration_email h1{
+	position: absolute;
+	color: rgba(31, 32, 65, 1);
+	font-size: 12px;
+	top: -30px;
+}
+.Registration_Last-name{
+	top: 145px;
+}
+.Registration_Gender_man,.Registration_Gender_women{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	outline: 1px solid rgba(31, 32, 65, 0.25);
+	transform: translate(148px,149px);
+	font-family: "Montserrat";
+	font-size:14px;
+}
+.Registration_Gender_man p{
+	position: relative;
+	bottom: 32px;
+	left: 30px;
+	color: rgba(31, 32, 65, 0.75);
+}
+.Registration_Gender_women p{
+	position: relative;
+	left: 30px;
+	color:rgba(31, 32, 65, 0.5);
+}
+
+.Registration_Gender_man{
+	outline: none;
+	position: relative;
+	right: 118px;
+	bottom: 20px;
+	background: linear-gradient(rgba(188, 156, 255, 1),rgba(139, 164, 249, 1));
+}
+.Registration_Gender_man_circle{
+	width: 18px;
+	height: 18px;
+	border-radius: 10px;
+	transform: translate(1px,1px);
+	background: white;
+}
+.Registration_Gender_man_circle div{
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background: linear-gradient(rgba(188, 156, 255, 1),rgba(139, 164, 249, 1));
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+.Registration_date{
+	top: 263px;
+}
+.Registration_email{
+	top: 348px;
+}
+.Registration_password{
+	top:401px;
+}
+.Registration_password_But-notifications{
+	width: 38px;
+	height: 19px;
+	border-radius: 10px;
+	outline: 1px solid rgba(31, 32, 65, 0.25);
+	transform: translateY(54px);
+}
+.Registration_password_But-notifications div{
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background: rgba(31, 32, 65, 0.25);
+	transform: translate(4px,4px);
+}
+.Registration_password_But-notifications p{
+	font-family: "Montserrat";
+	font-size: 14px;
+	color: rgba(31, 32, 65, 0.75);
+	transform: translate(35px,-12px);
+}
+.Registration_Button{
+	top: 500px;
+    border-radius: 22px;
+	background: linear-gradient(rgba(188, 156, 255, 1),rgba(139, 164, 249, 1));	
+}
+.Registration_Button p{
+	font-family: "Montserrat";
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+}
+.Registration_exist{
+	transform: translate(30px,480px);
+	font-family: "Montserrat";
+	font-size: 14px;
+}
+.Registration_exist img{
+	position: relative;
+	left: 220px;
+	top: -45px;
+	width:99px;
+    height:50px;
+    border-radius: 22px;
 }
 .Entrance{
 	height: 355px;
-	left: 560px;
-	top: -1208px;
+	transform: translate(560px,-1230px);
 }
